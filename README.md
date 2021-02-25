@@ -1,5 +1,5 @@
 # Iterators combiner
 
-### Дан массив итераторов.
-#### Все итераторы возвращают отсортированные по возрастанию числа.
-#### Реализован метод на коллекцию итераторов, который возвращает отсортированные по возрастанию числа.
+* Given iterators array.
+* All iterators has Next() method which is returns next integer by ascendant order.
+* Implemented Next() method for iterators array, which is returns next integer by ascendant order from all its iterators.
