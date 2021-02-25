@@ -7,9 +7,9 @@ type Iterator struct {
 }
 
 type Iterators struct {
-	list []*Iterator
-	minIdx int
-	minVal int
+	list       []*Iterator
+	minIdx     int
+	minVal     int
 	lastValues map[int]int
 }
 
@@ -27,8 +27,6 @@ func main() {
 		n := iterators.Next()
 		fmt.Printf("n: %d\n", n)
 	}
-
-	_ = iterators.Next()
 }
 
 func (i *Iterator) Next() (next int) {
